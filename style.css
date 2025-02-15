@@ -1,0 +1,104 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e0e0e0;
+}
+
+h2 {
+  color: #1f2937;
+}
+
+p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+/* Custom properties */
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-r {
+  display: flex;
+}
+
+.button-dark {
+  width: 130px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+  background-color: #3882f6;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Content CSS begins here */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+.header-container {
+  width: 1040px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: #ffffff;
+  padding-top: 18px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+
+.navigation {
+  gap: 30px;
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+.hero-container {
+  width: 1040px;
+  margin: 120px auto;
+  background: #1f2937;
+  color: #ffffff;
+  justify-content: space-between;
+}
+
+.hero-content {
+  width: 470px;
+  justify-content: space-between;
+}
+
+.hero-content h2 {
+  color: #ffffff;
+  font-size: 48px;
+}
+
+.hero-image {
+  background: grey;
+  width: 530px;
+  height: 230px;
+  text-align: center;
+}
